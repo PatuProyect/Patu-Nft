@@ -1,0 +1,331 @@
+
+@font-face{
+    font-family: 'italic';
+    src: url(/Assets/Fonts/Mitr-Light.ttf);
+}
+@font-face {
+    font-family: 'titulo';
+    src: url(/Assets/Fonts/IndieFlower-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'italic';
+    color: white;
+}
+h1{
+font-family: 'titulo';
+color: rgb(255, 255, 255);
+font-size: 20px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.tituloLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+header div a{
+    text-decoration: none;
+}
+header .redesSociales{
+    display: flex;
+    grid-column: 4/5;
+    list-style: none;
+}
+.navegacion{    
+    grid-column: 2/3;
+}
+.navLink{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+ul a i{
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+.navLink a{
+    color: white;
+    font-family: 'italic';
+    font-weight: bolder;
+    padding-left: 20px;
+    text-decoration: none;
+}
+.navLink a:hover{
+    color: aqua;
+}
+.idiomas{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    margin-right: 40px;
+
+}
+.idiomas li a i:hover{
+    color: aqua;
+    font-size: 25px;
+}
+.menuBar{
+    display: none;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(128, 128, 128, 0.678));
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    align-items: center;
+    height: 50px;
+}
+h2{
+    padding: 15px;
+    margin: 15px;
+}
+body{
+    background-color: #070707;
+}
+.bordesredondeados{
+    border: solid; color: rgb(255, 255, 255);
+    border-radius: 20px;
+    }
+footer{
+    text-align:center;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: 3px;
+    margin-top: 60px;
+}
+
+.privacidadCondiciones{
+    display: flex;
+    justify-content: space-evenly ;
+    list-style: none;
+}
+.politicasPrivacidad{
+    margin-right: 7%;
+    margin-left: 7%;
+    text-align: left;
+    font-size: 20px;
+}
+.pestañaPoliticas h2{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.politicasPrivacidad p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer h3{
+    margin-bottom: 10px;
+}
+footer .redesSociales ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+footer .redesSociales ul li{
+    list-style-type: none;
+    margin: 0 15px;
+    justify-items: center;
+}
+footer .redesSociales ul li .fab{
+    font-size: 20px;
+    padding-right: 4px;
+    padding-top: 1px;
+    line-height: 38px;
+    transition: 0.6s;
+    color: #fff;
+}
+footer .redesSociales ul li .fa-brands{
+    font-size: 20px;
+    padding-right: 4px;
+    padding-top: 1px;
+    line-height: 38px;
+    transition: 0.6s;
+    color: #fff;
+}
+footer .redesSociales ul li a{
+    display: block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+}
+footer .redesSociales ul li .fab:hover{
+    color: #fff;
+}
+footer .redesSociales ul li a:hover{
+    transform: translate(0, -15%);
+    transition: 0.5s;
+}
+footer .redesSociales ul li:nth-child(1) a:hover{
+    background-color: #3b5998;
+}
+footer .redesSociales ul li:nth-child(2) a:hover{
+    background-color: #e4405f;
+}
+footer .redesSociales ul li:nth-child(3) a:hover{
+    background-color: #ff0000;
+}
+footer .redesSociales ul li:nth-child(4) a:hover{
+    background-color: #1da1f2;
+}
+footer .redesSociales ul li:nth-child(5) a:hover{
+    background-color: #500b41;
+}
+footer .redesSociales ul li:nth-child(6) a:hover{
+    background-color: #f58608;
+}
+
+.imagenPrincipal{
+    border: solid; color: rgb(255, 255, 255);
+    width: 100%;
+    height: 4%;
+    }
+
+main{
+    margin: 5px;
+    text-align: center;
+}
+form{
+    padding: 50px;
+    text-align: left;
+}
+section{
+    text-align: center;
+}
+ol li{
+    padding: 7px;
+    padding-bottom: 15px;
+    }
+.proyecto{
+    border-radius: 20px;
+    background-color: rgb(58 55 58);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.videonft{
+    padding: 15px;
+}
+h4{
+    font-size: larger;
+}
+
+/*box sobre nosotros*/
+.nosotros{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nosotrosBox{
+    width: 200px;
+    height: 340px;
+    padding: 5px;
+    background-color: rgb(58 55 58);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/*box nft*/
+.introduccionNft{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.nftcontenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nftBox{
+    width: 300px;
+    height: 420px;
+    padding: 5px;
+    background-color: rgb(58 55 58);
+    border-radius: 20px;
+}
+.nftBox p{
+    text-align: start;
+}
+.nftBox h4{
+    text-align: start;
+}
+
+
+/*media querie*/
+
+@media screen and (max-width: 1290px) {
+    .nftcontenedor{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .nosotros{
+        flex-wrap: wrap;
+    }
+    }
+@media screen and (max-width: 960px) {
+    .nftcontenedor{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .pestañaPoliticas h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .menuBar{
+        display: flex;
+        justify-content: end;
+    }
+    .navegacion{
+        display: none;
+    }
+    .tituloLogo a h1{
+        font-size: 15px;
+    }
+    .tituloLogo a .logo{
+    font-size: 10px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .nftcontenedor{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .videonft{
+        width: 300px;
+        height: 200px;
+    }
+    .proyecto{
+        font-size: 15px;
+    }
+    .pestañaPoliticas h2{
+        font-size: 20px;
+}
+}
+@media screen and (max-width: 420px) {
+    .menuBar{
+        display: flex;
+        justify-content: end;
+    }
+    .navegacion{
+        display: none;
+    }
+    .tituloLogo a h1{
+        font-size: 15px;
+    }
+    .tituloLogo a .logo{
+    font-size: 10px;
+    }
+    .redesSociales ul{
+        flex-wrap: wrap;
+    }
+}
