@@ -206,8 +206,9 @@ ol li{
     background-color: rgb(58 55 58);
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: start;
 }
 .videonft{
     padding: 15px;
