@@ -66,7 +66,6 @@ ul a i{
 }
 .idiomas li a i:hover{
     color: aqua;
-    font-size: 25px;
 }
 .menuBar{
     display: none;
@@ -76,7 +75,7 @@ header{
     display: grid;
     grid-template-columns: 25% 50% 25%;
     align-items: center;
-    height: 50px;
+    height: 2%;
 }
 h2{
     padding: 15px;
