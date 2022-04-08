@@ -1,11 +1,11 @@
 
 @font-face{
     font-family: 'italic';
-    src: url(/Assets/Fonts/Mitr-Light.ttf);
+    src: url(../Assets/Fonts/Mitr-Light.ttf);
 }
 @font-face {
     font-family: 'titulo';
-    src: url(/Assets/Fonts/IndieFlower-Regular.ttf);
+    src: url(../Assets/Fonts/IndieFlower-Regular.ttf);
 }
 *{
     margin: 0;
