@@ -19,6 +19,7 @@ color: rgb(255, 255, 255);
 font-size: 20px;
 }
 .logo{
+    margin-top: 8px;
     height: 40px;
     width: 40px;
 }
@@ -35,8 +36,20 @@ header .redesSociales{
     grid-column: 4/5;
     list-style: none;
 }
-.navegacion{    
+.navegacion{
+    display: flex;    
     grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    grid-column: 2/4;
+}
+.collapse {
+    justify-content: space-between;
+}
+.nav-item{
+    color: white
 }
 .navLink{
     list-style: none;
@@ -59,21 +72,22 @@ ul a i{
 }
 .idiomas{
     display: flex;
+    justify-content: flex-end;
     list-style: none;
-    justify-content: end;
-    margin-right: 40px;
-
+    margin-right: 30px;
 }
-.idiomas li a i:hover{
+.idiomas i:hover{
     color: aqua;
 }
-.menuBar{
-    display: none;
-}
+
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.651), rgba(128, 128, 128, 0.678));
+    background: rgb(0,25,20);
+    background: -moz-linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    background: -webkit-linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    background: linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001914",endColorstr="#000000",GradientType=1);
     display: grid;
-    grid-template-columns: 25% 50% 25%;
+    grid-template-columns: 10% 80% 10%;
     align-items: center;
     height: 2%;
 }
@@ -90,7 +104,11 @@ body{
     }
 footer{
     text-align:center;
-    background-color: #2b2b2b;
+    background: rgb(0,25,20);
+    background: -moz-linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    background: -webkit-linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    background: linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001914",endColorstr="#000000",GradientType=1);
     color: #ffffff;
     padding: 3px;
     margin-top: 60px;
