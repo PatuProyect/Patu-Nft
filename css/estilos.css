@@ -91,6 +91,9 @@ header{
 .navbar-nav{
     align-items: flex-end;
 }
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
 h2{
     padding: 15px;
     margin: 15px;
@@ -231,7 +234,7 @@ ol li{
     }
 .proyecto{
     border-radius: 20px;
-    background-color: rgb(58 55 58);
+    background-color: rgba(3,62,85,1);
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 3%;
@@ -253,10 +256,10 @@ h4{
     justify-content: space-around;
 }
 .nosotrosBox{
-    width: 200px;
-    height: 340px;
+    width: 250px;
+    height: 355px;
     padding: 5px;
-    background-color: rgb(58 55 58);
+    background-color: rgba(3,62,85,1) ;
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -281,7 +284,7 @@ h4{
     width: 300px;
     height: 420px;
     padding: 5px;
-    background-color: rgb(58 55 58);
+    background-color: rgba(3,62,85,1);
     border-radius: 20px;
 }
 .nftBox p{
