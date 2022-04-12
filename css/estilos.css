@@ -219,6 +219,12 @@ form{
 section{
     text-align: center;
 }
+.row{
+    flex-direction: column-reverse;
+}
+.row .col-md-6{
+    max-width: 40%;
+}
 ol li{
     padding: 7px;
     padding-bottom: 15px;
@@ -300,6 +306,7 @@ h4{
     header{    
     grid-template-columns: 20% 60% 20%;
     }
+
 }
 
 @media screen and (max-width: 960px) {
