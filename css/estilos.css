@@ -18,11 +18,7 @@ font-family: 'titulo';
 color: rgb(255, 255, 255);
 font-size: 20px;
 }
-.logo{
-    margin-top: 8px;
-    height: 40px;
-    width: 40px;
-}
+
 .tituloLogo{
     display: flex;
     justify-content: center;
@@ -75,6 +71,7 @@ ul a i{
     justify-content: flex-end;
     list-style: none;
     margin-right: 30px;
+    grid-template-columns: 3/4;
 }
 .idiomas i:hover{
     color: aqua;
@@ -87,9 +84,12 @@ header{
     background: linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001914",endColorstr="#000000",GradientType=1);
     display: grid;
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 30% 50% 20%;
     align-items: center;
     height: 2%;
+}
+.navbar-nav{
+    align-items: flex-end;
 }
 h2{
     padding: 15px;
@@ -118,6 +118,9 @@ footer{
     display: flex;
     justify-content: space-evenly ;
     list-style: none;
+}
+.privacidadCondiciones li a{
+    color: white;
 }
 .politicasPrivacidad{
     margin-right: 7%;
@@ -206,6 +209,9 @@ main{
     margin: 5px;
     text-align: center;
 }
+.col-md-6{
+    max-width: 10%;
+}
 form{
     padding: 50px;
     text-align: left;
@@ -288,8 +294,14 @@ h4{
     }
     .nosotros{
         flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 1090px) {
+    header{    
+    grid-template-columns: 20% 60% 20%;
     }
-    }
+}
+
 @media screen and (max-width: 960px) {
     .nftcontenedor{
         grid-template-columns: repeat(2,1fr);
@@ -299,13 +311,7 @@ h4{
     }
 }
 @media screen and (max-width: 750px) {
-    .menuBar{
-        display: flex;
-        justify-content: end;
-    }
-    .navegacion{
-        display: none;
-    }
+
     .tituloLogo a h1{
         font-size: 15px;
     }
