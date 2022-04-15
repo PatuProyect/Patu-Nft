@@ -1,0 +1,385 @@
+
+@font-face{
+    font-family: 'italic';
+    src: url(../Assets/Fonts/Mitr-Light.ttf);
+}
+@font-face {
+    font-family: 'titulo';
+    src: url(../Assets/Fonts/IndieFlower-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'italic';
+    color: white;
+}
+.tituloLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+header{
+    background: rgb(0,25,20);
+    background: -moz-linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    background: -webkit-linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    background: linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001914",endColorstr="#000000",GradientType=1);
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    align-items: center;
+    height: 2%;
+    div a{
+        text-decoration: none;
+    }
+    .redesSociales{
+        display: flex;
+        grid-column: 4/5;
+        list-style: none;
+    }
+} 
+.navegacion{
+    display: flex;    
+    grid-column: 2/3;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    grid-column: 2/4;
+}
+.collapse {
+    justify-content: space-between;
+}
+.nav-item{
+    color: white
+}
+.navLink{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    a{
+        color: white;
+        font-family: 'italic';
+        font-weight: bolder;
+        padding-left: 20px;
+        text-decoration: none;
+    }
+    a:hover{
+        color: aqua;
+    }
+}
+ul a i{
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+.idiomas{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 30px;
+    grid-template-columns: 3/4;
+    i:hover{
+        color: aqua;
+    }
+}
+.navbar-nav{
+    align-items: flex-end;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.nav-item a:hover{
+    color: #00d9ff !important;
+}
+.dropdown-menu{
+    background-color:#2a5a62c2;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    background-color: #2a5a62c2;
+    border-radius: 20px;
+}
+h2{
+    padding: 15px;
+    margin: 15px;
+}
+body{
+background-color: #000000;
+}
+
+.bordesredondeados{
+    border: solid; color: rgb(255, 255, 255);
+    border-radius: 20px;
+    }
+footer{
+    text-align:center;
+    background: rgb(0,25,20);
+    background: -moz-linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    background: -webkit-linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    background: linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001914",endColorstr="#000000",GradientType=1);
+    box-shadow:  -5px -5px 5px rgba(3,62,85,1), 10px 10px 5px rgba(3,62,85,1);
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top: 60px;
+    h3{
+        margin-bottom: 10px;
+    }
+    .redesSociales ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        li{
+            list-style-type: none;
+            margin: 0 15px;
+            justify-items: center;
+            .fab{
+                font-size: 20px;
+                padding-right: 4px;
+                padding-top: 1px;
+                line-height: 38px;
+                transition: 0.6s;
+                color: #fff;
+            }
+            .fa-brands{
+                font-size: 20px;
+                padding-right: 4px;
+                padding-top: 1px;
+                line-height: 38px;
+                transition: 0.6s;
+                color: #fff;
+            }
+            a{
+                display: block;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                background-color: #000;
+            }
+            .fab:hover{
+                color: #fff;
+            }
+            a:hover{
+                transform: translate(0, -15%);
+                transition: 0.5s;
+            }
+        }
+        li:nth-child(1) a:hover{
+            background-color: #3b5998;
+        }
+        li:nth-child(2) a:hover{
+            background-color: #e4405f;
+        }
+        li:nth-child(3) a:hover{
+            background-color: #ff0000;
+        }
+        li:nth-child(4) a:hover{
+            background-color: #1da1f2;
+        }
+        li:nth-child(5) a:hover{
+            background-color: #500b41;
+        }
+        li:nth-child(6) a:hover{
+            background-color: #f58608;
+        }        
+    }
+}
+.privacidadCondiciones{
+    display: flex;
+    justify-content: space-evenly ;
+    list-style: none;
+    li a{
+        color: white;
+    }
+}
+.politicasPrivacidad{
+    margin-right: 7%;
+    margin-left: 7%;
+    text-align: left;
+    font-size: 20px;
+    p{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+.pestañaPoliticas h2{
+    font-size: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imagenPrincipal{
+    border: solid; color: rgb(255, 255, 255);
+    width: 100%;
+    height: 4%;
+}
+main{
+    margin: 5px;
+    text-align: center;
+}
+.col-md-6{
+    max-width: 10%;
+}
+form{
+    padding: 50px;
+    text-align: left;
+}
+section{
+    text-align: center;
+}
+.row{
+    flex-direction: column-reverse;
+}
+.row .col-md-6{
+    max-width: 40%;
+}
+ol li{
+    padding: 7px;
+    padding-bottom: 15px;
+    }
+.proyecto{
+    border-radius: 20px;
+    background-color: rgba(3,62,85,1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: start;
+}
+.videonft{
+    padding: 15px;
+}
+h4{
+    font-size: larger;
+}
+
+/*box sobre nosotros*/
+.nosotros{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.nosotrosBox{
+    width: 250px;
+    height: 355px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 34px;
+    background: #161616;
+    box-shadow: -13px -13px 26px #000000, 13px 13px 10px rgba(3,62,85,1);
+    margin-top: 20px;
+    &:hover{
+        background: #000000;
+        box-shadow: none;
+        border: solid rgba(3,62,85,1);
+    }
+}
+
+/*box nft*/
+.introduccionNft{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.nftcontenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.nftBox{
+    width: 300px;
+    height: 420px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 34px;
+    background: #161616;
+    box-shadow: -13px -13px 26px #000000, 13px 13px 10px rgba(3,62,85,1);
+    p{
+        text-align: start;
+    }
+    h4{
+        text-align: start;
+    }
+    &:hover{
+        background: #000000;
+        box-shadow: none;
+        border: solid rgba(3,62,85,1);
+    }
+}
+/*media querie*/
+
+@media screen and (max-width: 1290px) {
+    .nftcontenedor{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .nosotros{
+        flex-wrap: wrap;
+}
+}
+@media screen and (max-width: 1090px) {
+    header{    
+    grid-template-columns: 20% 60% 20%;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    .nftcontenedor{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .pestañaPoliticas h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 750px) {
+
+    .tituloLogo a h1{
+        font-size: 15px;
+    }
+    .tituloLogo a .logo{
+    font-size: 10px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .nftcontenedor{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .videonft{
+        width: 300px;
+        height: 200px;
+    }
+    .proyecto{
+        font-size: 15px;
+    }
+    .pestañaPoliticas h2{
+        font-size: 20px;
+}
+}
+@media screen and (max-width: 420px) {
+    .menuBar{
+        display: flex;
+        justify-content: end;
+    }
+    .navegacion{
+        display: none;
+    }
+    .tituloLogo a h1{
+        font-size: 15px;
+    }
+    .tituloLogo a .logo{
+    font-size: 10px;
+    }
+    .redesSociales ul{
+        flex-wrap: wrap;
+    }
+}
