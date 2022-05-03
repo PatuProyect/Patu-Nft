@@ -293,14 +293,23 @@ h4 {
   margin-left: 15%;
 }
 .portada .portadaImagenes {
-  background-color: #414141;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(9deg, rgb(0, 0, 0) 0%, rgb(65, 65, 65) 48%, rgb(198, 198, 198) 99%);
+  background: -webkit-linear-gradient(9deg, rgb(0, 0, 0) 0%, rgb(65, 65, 65) 48%, rgb(198, 198, 198) 99%);
+  background: linear-gradient(9deg, rgb(0, 0, 0) 0%, rgb(65, 65, 65) 48%, rgb(198, 198, 198) 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#c6c6c6",GradientType=1);
   height: 490px;
   width: 480px;
-  border-radius: 5px;
-  box-shadow: 7px 7px 3px #dfd2d2;
+  border-radius: 15px;
+  box-shadow: 5px 5px 3px #636262;
 }
 .portada .portadaImagenes:hover {
   box-shadow: none;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(86deg, rgb(0, 0, 0) 10%, rgb(65, 65, 65) 48%, rgb(3, 3, 3) 100%);
+  background: -webkit-linear-gradient(86deg, rgb(0, 0, 0) 10%, rgb(65, 65, 65) 48%, rgb(3, 3, 3) 100%);
+  background: linear-gradient(86deg, rgb(0, 0, 0) 10%, rgb(65, 65, 65) 48%, rgb(3, 3, 3) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#030303",GradientType=1);
 }
 .portada .portadaImagenes a img {
   height: 400px;
@@ -374,7 +383,11 @@ h4 {
   top: 0;
   text-align: center;
   transition: all 0.25s;
-  background-color: rgb(48, 48, 48);
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(9deg, rgb(0, 0, 0) 0%, rgb(65, 65, 65) 48%, rgb(198, 198, 198) 99%);
+  background: -webkit-linear-gradient(9deg, rgb(0, 0, 0) 0%, rgb(65, 65, 65) 48%, rgb(198, 198, 198) 99%);
+  background: linear-gradient(9deg, rgb(0, 0, 0) 0%, rgb(65, 65, 65) 48%, rgb(198, 198, 198) 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#c6c6c6",GradientType=1);
 }
 .nftBox img {
   width: 330px;

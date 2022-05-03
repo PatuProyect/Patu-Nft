@@ -8,6 +8,13 @@
     background: linear-gradient(9deg, rgba(0,25,20,1) 7%, rgba(0,255,205,0.8855917366946778) 24%, rgba(3,62,85,1) 27%, rgba(0,0,0,0.8855917366946778) 90%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#001914",endColorstr="#000000",GradientType=1);
 }
+@mixin fondoCartas {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(9deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 48%, rgba(198,198,198,1) 99%);
+    background: -webkit-linear-gradient(9deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 48%, rgba(198,198,198,1) 99%);
+    background: linear-gradient(9deg, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 48%, rgba(198,198,198,1) 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#c6c6c6",GradientType=1);
+}
 
 @font-face{
     font-family: 'italic';
@@ -265,13 +272,18 @@ h4{
     margin-right: 15%;
     margin-left: 15%;
     .portadaImagenes{
-        background-color: #414141;
+        @include fondoCartas();
         height: 490px;
         width: 480px;
-        border-radius: 5px;
-        box-shadow: 7px 7px 3px #dfd2d2;
+        border-radius: 15px;
+        box-shadow: 5px 5px 3px #636262;
         &:hover{
             box-shadow: none;
+            background: rgb(0,0,0);
+            background: -moz-linear-gradient(86deg, rgba(0,0,0,1) 10%, rgba(65,65,65,1) 48%, rgba(3,3,3,1) 100%);
+            background: -webkit-linear-gradient(86deg, rgba(0,0,0,1) 10%, rgba(65,65,65,1) 48%, rgba(3,3,3,1) 100%);
+            background: linear-gradient(86deg, rgba(0,0,0,1) 10%, rgba(65,65,65,1) 48%, rgba(3,3,3,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#030303",GradientType=1);
         }
         a img{
             height: 400px;
@@ -289,6 +301,7 @@ h4{
         }
         a:hover{
             text-decoration: none;
+            
         }
     }
 }
@@ -346,7 +359,7 @@ h4{
     top: 0;
     text-align: center;
     transition: all 0.25s;
-    background-color: rgb(48, 48, 48);
+    @include fondoCartas();
     img{
         width: 330px;
         height: 200px;
