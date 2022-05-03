@@ -628,7 +628,8 @@ h4{
 
 /*media querie*/
 
-@media screen and (max-width: 1290px) {
+@media only screen and (max-width: 1290px) and (min-width: 1091px){
+
     .nftcontenedor{
         grid-template-columns: repeat(3,1fr);
     }
@@ -636,22 +637,31 @@ h4{
         flex-wrap: wrap;
 }
 }
-@media screen and (max-width: 1090px) {
+
+@media only screen and (max-width: 1090px) and (min-width: 961px){
+
     header{    
     grid-template-columns: 20% 60% 20%;
     }
+    .nosotros{
+        flex-wrap: wrap;
+}
 
 }
 
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 960px) and (min-width: 751px){
     .nftcontenedor{
         grid-template-columns: repeat(2,1fr);
     }
     .pestañaPoliticas h2{
         font-size: 40px;
     }
+    .nosotros{
+        flex-wrap: wrap;
 }
-@media screen and (max-width: 750px) {
+}
+
+@media only screen and (max-width: 750px) and (min-width: 681px){
 
     .tituloLogo a h1{
         font-size: 15px;
@@ -659,8 +669,11 @@ h4{
     .tituloLogo a .logo{
     font-size: 10px;
     }
+    .nosotros{
+        flex-wrap: wrap;
 }
-@media screen and (max-width: 680px) {
+}
+@media only screen and (max-width: 680px) and (min-width: 421px){
     .nftcontenedor{
         grid-template-columns: repeat(1,1fr);
     }
@@ -673,8 +686,12 @@ h4{
     }
     .pestañaPoliticas h2{
         font-size: 20px;
+    }
+    .nosotros{
+            flex-wrap: wrap;
+    }
 }
-}
+
 @media screen and (max-width: 420px) {
     .menuBar{
         display: flex;
@@ -692,5 +709,8 @@ h4{
     .redesSociales ul{
         flex-wrap: wrap;
     }
+    .nosotros{
+        flex-wrap: wrap;
+}
 }
 
