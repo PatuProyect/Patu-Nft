@@ -41,7 +41,6 @@ header{
     display: grid;
     grid-template-columns: 30% 50% 20%;
     align-items: center;
-    height: 2%;
     div a{
         text-decoration: none;
     }
@@ -269,12 +268,13 @@ h4{
     column-gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-right: 15%;
-    margin-left: 15%;
+    align-items: center;
+    margin-right: 16%;
+    margin-left: 16%;
     .portadaImagenes{
         @include fondoCartas();
-        height: 490px;
-        width: 480px;
+        height: 430px;
+        width: 430px;
         border-radius: 15px;
         box-shadow: 5px 5px 3px #636262;
         &:hover{
@@ -286,8 +286,8 @@ h4{
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#030303",GradientType=1);
         }
         a img{
-            height: 400px;
-            width: 400px;
+            height: 280px;
+            width: 300px;
         }
         a h3{
             color: white;
@@ -314,6 +314,8 @@ h4{
     justify-content: left;
     flex-direction: row;
     justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 150px;
 }
 .nosotrosBox{
     width: 250px;
@@ -347,6 +349,8 @@ h4{
     justify-content: center;
     justify-items: center;
     flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .nftBox{
     width: 390px;
